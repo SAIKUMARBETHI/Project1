@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Special offers in opencart website",
+        "description": "",
+        "id": "demo.opencart-website;special-offers-in-opencart-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7451892400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user to open browser chrome",
+            "match": {
+              "location": "Opencart_Specialssd.the_user_to_open_browser_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13007468600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks on the specials",
+            "match": {
+              "location": "Opencart_Specialssd.the_user_clicks_on_the_specials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3087292500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user will see the specials and add to the cart",
+            "match": {
+              "location": "Opencart_Specialssd.the_user_will_see_the_specials_and_add_to_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3542579400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user close the site and browser",
+            "match": {
+              "location": "Opencart_Specialssd.the_user_close_the_site_and_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@tc04_Special"
+          }
+        ]
+      }
+    ],
+    "name": "Demo.Opencart website",
+    "description": "",
+    "id": "demo.opencart-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/DemoOpencart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Testcase_Feature"
+      }
+    ]
+  }
+]
