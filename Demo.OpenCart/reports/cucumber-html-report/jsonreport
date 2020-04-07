@@ -3,66 +3,66 @@
     "line": 2,
     "elements": [
       {
-        "line": 33,
-        "name": "Special offers in opencart website",
+        "line": 5,
+        "name": "Registering valid details",
         "description": "",
-        "id": "demo.opencart-website;special-offers-in-opencart-website",
+        "id": "demo.opencart-website;registering-valid-details",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7451892400,
+              "duration": 9722213700,
               "status": "passed"
             },
-            "line": 34,
-            "name": "the user to open browser chrome",
+            "line": 7,
+            "name": "the user launch the browser for valid register",
             "match": {
-              "location": "Opencart_Specialssd.the_user_to_open_browser_chrome()"
+              "location": "Opencart_Registersd.the_user_launch_the_browser_for_valid_register()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 13007468600,
+              "duration": 2029474700,
               "status": "passed"
             },
-            "line": 35,
-            "name": "the user clicks on the specials",
+            "line": 8,
+            "name": "the  user opens opencart register page",
             "match": {
-              "location": "Opencart_Specialssd.the_user_clicks_on_the_specials()"
+              "location": "Opencart_Registersd.the_user_opens_opencart_register_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3087292500,
+              "duration": 5893978600,
               "status": "passed"
             },
-            "line": 36,
-            "name": "the user will see the specials and add to the cart",
+            "line": 9,
+            "name": "the user enters the valid register details",
             "match": {
-              "location": "Opencart_Specialssd.the_user_will_see_the_specials_and_add_to_the_cart()"
+              "location": "Opencart_Registersd.the_user_enters_the_valid_register_details()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3542579400,
+              "duration": 467614200,
               "status": "passed"
             },
-            "line": 37,
-            "name": "the user close the site and browser",
+            "line": 10,
+            "name": "the user close the register page",
             "match": {
-              "location": "Opencart_Specialssd.the_user_close_the_site_and_browser()"
+              "location": "Opencart_Registersd.the_user_close_the_register_page()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 32,
-            "name": "@tc04_Special"
+            "line": 4,
+            "name": "@tc01_register"
           }
         ]
       }

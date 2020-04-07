@@ -28,17 +28,19 @@ public class Opencart_Registersd extends Opencart_Basepage {
     	register= new Opencart_Registerpage(driver);
 		register.firstname("Saikumar");
 		register.lastname("bethi");
-		register.usernameweb("saikumar14@gmail.com");
+		register.usernameweb("saikumarb1@gmail.com");
 		register.telephonenum("9491993674");
 		register.password("Saikumar8985");
 		register.confirmpass("Saikumar8985");
+		register.agree();
 		register.ctn();
+		register.ctn1();
     }
 
     @Then("^the user close the register page$")
     public void the_user_close_the_register_page() throws Throwable {
     	Screenshot util = new  Screenshot(driver);
-		util.takeSnapShot("E:\\javas\\Demo.OpenCart\\src\\test\\resources\\screenshot\\RegisterPage.png");
+		util.takeSnapShot("E:\\javas\\Demo.OpenCart\\src\\test\\resources\\screenshot\\registerPage1.png");
 		 driver.close();
       
     }

@@ -5,7 +5,6 @@ import org.junit.runner.RunWith;
 
 import com.cucumber.listener.Reporter;
 
-import baseclass.Opencart_Basepage;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
@@ -15,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 					plugin = {"pretty", "html:reports/cucumber-html-report","json:reports/cucumber-html-report/jsonreport",
 			"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html"},
 			//plugin = {"pretty", "html:reports/cucumber-html-report"},
-		tags = {"@tc04_Special"},
+		tags = {"@tc01_register"},
 			glue = {"Opencart.stepdefinition"},
 			//monochrome = true
 			dryRun=false
