@@ -13,11 +13,11 @@ import cucumber.api.junit.Cucumber;
 			features = "src/test/resources/feature/DemoOpencart.feature",
 					plugin = {"pretty", "html:reports/cucumber-html-report","json:reports/cucumber-html-report/jsonreport",
 			"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html"},
-			//plugin = {"pretty", "html:reports/cucumber-html-report"},
-		tags = {"@tc01_register"},
+					
+		tags = {"@tc01_register,@tc2_login,@tc03_search,@tc04_Special,@tc05_selectproduct,@tc06_forgotpass,@tc07_currency"},
 			glue = {"Opencart.stepdefinition"},
-			//monochrome = true
-			dryRun=false
+			monochrome = true
+			
 			)
 
 	public class Opencart_runner {
