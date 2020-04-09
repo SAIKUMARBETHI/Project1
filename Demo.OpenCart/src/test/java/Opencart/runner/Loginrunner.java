@@ -12,8 +12,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/resources/feature/DemoOpencart.feature", plugin = { "pretty",
 		"html:reports/cucumber-html-report", "json:reports/cucumber-html-report/jsonreport",
 		"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html" },
-		// plugin = {"pretty", "html:reports/cucumber-html-report"},
-		tags = { "@tc2_login" }, glue = { "Opencart.stepdefinition" }, monochrome = true// readable
+
+         tags = {"@tc2_login" }, glue = { "Opencart.stepdefinition" },
+         monochrome = true
 )
 public class Loginrunner {
 	@AfterClass

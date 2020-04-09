@@ -19,8 +19,6 @@ public class SelectProduct_OCpage extends Basepage {
 	public SelectProduct_OCpage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
-		this.driver = driver;
-
 	}
 
 	public void SelectProduct() {

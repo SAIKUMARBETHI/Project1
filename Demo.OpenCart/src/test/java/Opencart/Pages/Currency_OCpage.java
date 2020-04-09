@@ -18,8 +18,6 @@ public class Currency_OCpage extends Basepage {
 	public Currency_OCpage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
-		this.driver = driver;
-
 	}
 
 	public void CurrencyChange() {

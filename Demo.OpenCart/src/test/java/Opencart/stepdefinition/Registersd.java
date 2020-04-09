@@ -28,7 +28,7 @@ public class Registersd extends Basepage {
 		register = new Register_OCpage(driver);
 		register.FirstName("Saikumar");
 		register.LastName("bethi");
-		register.UserName1("saikumar49@gmail.com");
+		register.UserName1("saikumar41@gmail.com");
 		register.TelephoneNum("9491993674");
 		register.Password("Saikumar8985");
 		register.ConfirmPass("Saikumar8985");

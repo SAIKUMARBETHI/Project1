@@ -22,14 +22,13 @@ public class ForgetPass_OCpage extends Basepage {
 	public ForgetPass_OCpage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
-		this.driver = driver;
 	}
-
+//*myaccount and login*//
 	public void ChangePass() {
 		myaccount.click();
 		login.click();
 	}
-
+//*for forget button*//
 	public void ForgotBtn() {
 
 		forgotpas.click();
